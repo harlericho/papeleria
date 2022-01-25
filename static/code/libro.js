@@ -82,6 +82,7 @@ var app = new function () {
                         confirmButtonText: 'Aceptar'
                     })
                     document.getElementById('formLibro').reset();
+                    this.imagen.innerHTML = "";
                     this.listado();
                 } else {
                     Swal.fire({
